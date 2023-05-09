@@ -1,0 +1,225 @@
+/*CSS for Website Final
+Megan LaRose
+4/10/23
+*/
+
+/*global styles*/
+
+/*START NAV AREA*/ 
+nav {   background-image: url(images/nav_background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100px;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        color: #FFFFFF;
+        text-align: right;
+        text-decoration: none;}
+
+nav ul { list-style-type: none;
+        text-align: right;
+        font-size: 20pt;
+        padding-right: 10px;}
+
+nav li { display: inline;}
+
+nav a { text-decoration: none;
+        padding-left: 15px;
+        padding-right: 15px;}
+
+nav a:link {color: #fafafa;}
+  
+nav a:hover {filter: brightness(50%)}
+
+.logo-img { float: left;
+            position: relative;
+            padding-left: 40px;
+            bottom: 20px;
+            max-width: 150px;}
+/*END NAV AREA*/
+
+
+/*START HEADER AREA*/
+header {background-color: #F9F3E5;
+        height: 450px;
+        color: black;
+        text-align: right;
+        padding-top: 0;
+        padding-bottom: 50px;
+        padding-right: 80px;
+        font-size: 150%;}
+
+#header_title { float: right;
+                padding-top: 0;
+                padding-right: 10px;
+                padding-bottom: 10px;}
+
+section { float: left;
+        padding-left: 30px;}
+
+#header_image { max-width: 450px;
+                float: left;
+                padding-top: 150px;
+                padding-left: 80px;}
+
+#header_quote { float: right;
+                padding-top: 0;
+                padding-right: 10px;
+                text-align: center;}
+
+/* END HEADER AREA */
+
+
+/*START HOME PAGE STYLES*/
+#wrapper {margin-left: auto; margin-right: auto; /* this centers the elements inside the wrapper*/width: 60%;}
+
+#designer_image {max-width: 250px;}
+/*END HOME PAGE STYLES*/
+
+
+/* START NON-HOME PAGE STYLES*/
+#nonhome_title {text-align: center; padding-top: 15px;}
+
+#nonhome_h_text {text-align: center;}
+/* END NON-HOME PAGE STYLES*/
+
+
+/* START ALL PAGE STYLES*/
+body {font-family: Arial, Helvetica, sans-serif; background-color:#86B3D1;}
+
+h1 {font-size: 70pt; color: #A86446; padding-bottom: 0;}
+
+h2 {color: white; text-align: center;}
+
+.bg_blocks {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 200%;
+    /* Note to self padding keeps background size the same while squishing contents inward */
+    /* Note to self Margin squishes background size */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.round_block_titles { /* W3Schools rounded corners code adjusted to fit my website theme*/
+    border-radius: 25px;
+    background: #474853;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 25px;}
+
+.dropshadow{
+    /*border: 1px solid #000033;*/
+    box-shadow: 3px 3px 3px #333333;}
+
+/* END ALL PAGE STYLES*/
+
+/* START PORTFOLIO PAGE*/
+#w_graphic_gallery {
+    display: grid;
+    grid-template-columns: 810px;
+    grid-template-rows: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;}
+
+#sm_graphic_gallery {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;}
+
+#bg_graphic_gallery {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 65%;}
+
+/* END PORTFOLIO PAGE*/
+
+
+/* START CONTACT PAGE STYLES*/
+/* Contact Form copied from in-class work*/
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;}
+  
+  ul {list-style: none; padding: 0; margin: 0;}
+  
+  form li + li {margin-top: 1em;}
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;}
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;}
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;}
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;}
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */}
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;}  
+
+/* END CONTACT PAGE STYLES*/
+
+/* START FOOTER STYLES*/
+footer {/* copied outline from Pacific trails changed background color and spacing */
+    background: #F9F3E5;
+    text-align: center;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;}
+
+/* END FOOTER STYLES*/
+
+
+
+
